@@ -13,29 +13,31 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 </head>
-<body>
+<body class="home">
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="top-heading">
-					<div class="menu">
-						<ul>
-							<li><a href="./">Home</a></li>
-							<li><a href="./">Home</a></li>
-							<li><a href="./">Home</a></li>
-							<li><a href="./">Home</a></li>
-							<li><a href="./">Home</a></li>
-						</ul>
-					</div>					
-				</div> <!-- /.top-heading -->
-			</div>
-		</div>
+	<ul id="menu">
+    <li data-menuanchor="about-us" class="active"><a href="#about-us">About Us</a></li>
+    <li data-menuanchor="what-we-do"><a href="#what-we-do">What We Do</a></li>
+    <li data-menuanchor="our-team"><a href="#our-team">Our Team</a></li>
+    <li data-menuanchor="testimonials"><a href="#testimonials">Testimonials</a></li>
+	</ul>
+
+	<div id="fullpage">
+    <div class="section about-us">    	
+			<h1>About Us</h1>    	
+    </div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
 	</div>
 
 	<script type="text/javascript" src="./assets/js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="./assets/bootstrap/js/bootsrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 </html>

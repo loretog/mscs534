@@ -1,0 +1,8 @@
+.home #menu { position: fixed; z-index: 9999999; background-color: #ccc; width: 100%; opacity: 0.7; list-style-type: none; margin: 0; padding: 0; }
+.home #menu:after { clear: both; }
+.home #menu li { opacity: 1; float: left; }
+.home #menu li a { display: block; padding: 10px 20px; }
+.home #menu li a:hover { background-color: #aaa; }
+
+.home #fullpage .about-us { background: url('../images/739589-aviation-wallpaper.jpg') center center no-repeat #fff; }
+.home #fullpage .section { position: relative; }
