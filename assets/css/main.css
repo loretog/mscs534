@@ -1,10 +1,10 @@
-.home #menu:before { opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #eee; content: ' '; display: block; z-index: -1; }
-.home #menu { position: fixed; z-index: 9999999; width: 100%; list-style-type: none; margin: 0; padding: 0; }
-.home #menu:after { clear: both; }
-.home #menu li { opacity: 1; float: left; }
-.home #menu li.active a { background-color: #460503; color: #fff; }
-.home #menu li a { display: block; padding: 10px 20px; color: #2A0100; text-decoration: none; text-transform: uppercase; }
-.home #menu li a:hover { background-color: #460503; color: #fff; }
+#menu:before { opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #eee; content: ' '; display: block; z-index: -1; }
+#menu { position: fixed; z-index: 9999999; width: 100%; list-style-type: none; margin: 0; padding: 0; }
+#menu:after { clear: both; }
+#menu li { opacity: 1; float: left; }
+#menu li.active a { background-color: #460503; color: #fff; }
+#menu li a { display: block; padding: 10px 20px; color: #2A0100; text-decoration: none; text-transform: uppercase; }
+#menu li a:hover { background-color: #460503; color: #fff; }
 
 .home #fullpage .about-us {}
 .home #fullpage .about-us .slide[data-anchor=slide1] { background: url('../images/739589-aviation-wallpaper.jpg') center center no-repeat #fff; }
@@ -12,3 +12,18 @@
 .home #fullpage .about-us h1 { color: #fff; }
 .home #fullpage .about-us p { color: #fff; font-size: 18px; }
 .home #fullpage .section { position: relative; }
+
+
+.products .product-wrapper { margin-top: 50px; }
+.products #menu { position: fixed; z-index: 9999999; width: 100%; top:0 !important; list-style-type: none; margin: 0; padding: 0; }
+
+.footer-wrapper { background-color: #aaa; }
+.footer-wrapper:after { content: ' '; clear: both; display: block; }
+.footer-menu {  }
+.footer-menu ul { list-style: none; }
+.footer-menu ul li { float: left; }
+.footer-menu ul li a { display: block; padding: 10px 15px; font-size: 12px; color: #fff; text-decoration: none; }
+
+
+.fullsize-close { top: 20px !important; }
+.fullsize-title { height: 30px !important; }
