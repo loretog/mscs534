@@ -19,6 +19,6 @@
 		exit;
 	}*/
 	require_once 'controllers/' . $class . '.php';
-	$controller = new $class();
+	$controller = new $class( $router );
 	$method = $router->get_method();
 	$controller->$method();
