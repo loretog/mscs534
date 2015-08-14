@@ -11,8 +11,14 @@
 	//$router->go();
 
 
-	$class = $router->get_class() . "_Controller";
-	require_once "controllers/" . $class. ".php";
+	$class = $router->get_class();
+	/*if( file_exists( "controllers/" . $class. ".php" ) ) {
+		require_once "controllers/" . $class. ".php";
+	} else {
+		echo "class not found.";
+		exit;
+	}*/
+	require_once 'controllers/' . $class . '.php';
 	$controller = new $class();
 	$method = $router->get_method();
 	$controller->$method();

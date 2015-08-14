@@ -18,7 +18,12 @@
 			return $this->path;
 		}
 		public function get_class() {
-			return $this->class_name;
+			if( file_exists( "controllers/" . $this->class_name . "_Controller.php" ) ) {
+				return $this->class_name . "_Controller";
+			} else {
+				echo "Class Not Found!";
+				exit;
+			}
 		}
 		public function get_method() {
 			return $this->method_name;
