@@ -41,6 +41,8 @@
 			/* get method name */
 			if( isset( $the_path[ 1 ] ) ) {
 				$this->method_name = $the_path[ 1 ];
+			} else {
+				$this->method_name = 'index';
 			}
 
 			/* get query strings */

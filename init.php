@@ -11,7 +11,7 @@
 	//$router->go();
 
 
-	$class = $router->get_class() . "_Class";
+	$class = $router->get_class() . "_Controller";
 	require_once "controllers/" . $class. ".php";
 	$controller = new $class();
 	$method = $router->get_method();

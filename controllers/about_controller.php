@@ -1,12 +1,10 @@
 <?php
 
-	class Default_Class extends Controller {
-
+	class About_Controller extends Controller {
 		public function __construct() {
 			parent::__construct();
 		}
-
 		public function index() {
-			echo "xxx";
+			$this->render( 'about' );
 		}
 	}
