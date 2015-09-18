@@ -7,7 +7,7 @@
 	 *	GitHub:				https://github.com/loretog/mscs534
 	 *	Version:			0.1
 	 *
-   */
+   */	
 ?> 
 <!DOCTYPE html>
 <html>

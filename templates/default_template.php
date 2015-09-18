@@ -13,7 +13,7 @@
     <li data-menuanchor="what-we-do"><a href="#what-we-do">What We Do</a></li>
     <li data-menuanchor="our-team"><a href="#our-team">Our Team</a></li>
     <li data-menuanchor="signup"><a href="#signup">Signup</a></li> 
-    <li><a href="./products.php">Products</a></li> 
+    <li><a href="./products">Products</a></li> 
 	</ul>
 
 	<div id="fullpage">
