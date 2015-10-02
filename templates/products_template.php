@@ -7,26 +7,25 @@
 	 *	GitHub:				https://github.com/loretog/mscs534
 	 *	Version:			0.1
 	 *
-   */	
+   */ 
 ?> 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Best Layer, Inc</title>
-	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fullPage.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-	<link href="./assets/fullsize/fullsize.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL; ?>/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL; ?>/assets/css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL; ?>/assets/css/main.css">
+	<link href="<?php echo ROOT_URL; ?>/assets/fullsize/fullsize.css" media="screen" rel="stylesheet" type="text/css" />
 
 </head>
 <body class="products">
 
 	<ul id="menu">
-    <li data-menuanchor="about-us" class="active"><a href="./index.php#about-us">About Us</a></li>
-    <li data-menuanchor="what-we-do"><a href="./index.php#what-we-do">What We Do</a></li>
-    <li data-menuanchor="our-team"><a href="./index.php#our-team">Our Team</a></li>
-    <li data-menuanchor="signup"><a href="./index.php#signup">Signup</a></li> 
-    <li><a href="./products.php">Products</a></li> 
+    <li data-menuanchor="about-us" class="active"><a href="<?php echo ROOT_URL; ?>/index.php#about-us">About Us</a></li>
+    <li data-menuanchor="what-we-do"><a href="<?php echo ROOT_URL; ?>/index.php#what-we-do">What We Do</a></li>
+    <li data-menuanchor="our-team"><a href="<?php echo ROOT_URL; ?>/index.php#our-team">Our Team</a></li>
+    <li data-menuanchor="signup"><a href="<?php echo ROOT_URL; ?>/index.php#signup">Signup</a></li>     
 	</ul>
 
 	<div class="container-fluid product-wrapper">
@@ -50,7 +49,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -71,7 +70,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -92,7 +91,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -113,7 +112,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -134,7 +133,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -155,7 +154,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -176,7 +175,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -197,7 +196,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Product1</div>
 					<div class="panel-body">
-						<img src="./assets/images/engine1.jpg" fullsize="./assets/images/engine1.jpg" title="Product 1" longdesc="./assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
+						<img src="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" fullsize="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" title="Product 1" longdesc="<?php echo ROOT_URL; ?>/assets/images/engine1.jpg" class="prod-image img-responsive img-circle pull-left" >Nam eu dapibus ipsum. Vivamus sapien risus, feugiat a ultrices quis, facilisis vel magna. Duis a aliquet ligula. Sed efficitur in sapien vel mattis.
 					</div>
 					<div class="panel-footer">
 						<div class="row">
@@ -259,9 +258,9 @@
 
 	</div>
 	
-	<script src="./assets/js/jquery-2.1.4.min.js"></script>
-	<script src="./assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./assets/fullsize/jquery.fullsize.js"></script>
+	<script src="<?php echo ROOT_URL; ?>/assets/js/jquery-2.1.4.min.js"></script>
+	<script src="<?php echo ROOT_URL; ?>/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo ROOT_URL; ?>/assets/fullsize/jquery.fullsize.js"></script>
 	<script type="text/javascript">
 		jQuery(function($) {
 			$(".prod-image ").fullsize();			

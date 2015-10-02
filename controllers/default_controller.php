@@ -2,13 +2,9 @@
 
 	class Default_Controller extends Controller {
 
-		/*public function __construct( $r ) {
-			parent::__construct( $r );
-		}*/
+		public function _init() {}
 
-		public function index() {
-			$x = "Hello World";
-			$this->set( "x", $x );
+		public function index() {			
 			$this->render( "default" );
 		}
 	}

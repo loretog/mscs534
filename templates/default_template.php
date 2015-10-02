@@ -12,8 +12,7 @@
     <li data-menuanchor="about-us" class="active"><a href="#about-us">About Us</a></li>
     <li data-menuanchor="what-we-do"><a href="#what-we-do">What We Do</a></li>
     <li data-menuanchor="our-team"><a href="#our-team">Our Team</a></li>
-    <li data-menuanchor="signup"><a href="#signup">Signup</a></li> 
-    <li><a href="./products">Products</a></li> 
+    <li data-menuanchor="signup"><a href="#signup">Signup</a></li>     
 	</ul>
 
 	<div id="fullpage">
@@ -22,8 +21,7 @@
     		<div class="container">
     			<div class="row">
     				<div class="col-lg-12">			    		
-    					<h1>About Us</h1>
-    					<h2><?php echo $x ?></h2>
+    					<h1>About Us</h1>    					
 			    		<p>Best Layer, Inc, a company engaged in the distribution of magnetic devices for airplane's engine will be developing its e-commerce and campaign web application</p>
 			    		<p>In gravida facilisis neque, in faucibus felis tempor in. Nulla at tempus velit. Duis venenatis lectus et dui dapibus finibus. Integer condimentum sem vitae finibus elementum. Morbi volutpat lectus vitae maximus ultrices. Sed blandit justo eget sapien vestibulum lacinia. Donec in mauris vitae nunc imperdiet aliquet ac nec velit. Aenean vitae quam sit amet lorem fringilla iaculis. Fusce elementum pulvinar ipsum. Praesent quis massa eget nisl sodales maximus at tristique magna.</p>
 			    	</div>
@@ -113,6 +111,7 @@
 						    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
 						  </div>
 						  <button type="submit" class="btn btn-default">Register</button>
+						  <a class="pull-right" href="<?php echo ROOT_URL ?>/login">Login</a>
 						</form>
     			</div>
     			<div class="col-lg-6">

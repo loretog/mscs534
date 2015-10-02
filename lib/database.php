@@ -7,4 +7,8 @@
     		die('Connect Error: ' . $this->connect_errno . " - " . $this->connect_error );
 			}			
 		}
+
+		public function get_all_products() {
+			return $this->query( "SELECT * FROM tbl_products" );
+		}
 	}
