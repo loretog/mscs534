@@ -18,7 +18,7 @@
 			</tr>
 		</thead>
 		<tbody>	
-			<?php if( $products->num_rows ) : ?>
+			<?php if( $products && $products->num_rows ) : ?>
 			<?php while( $product = $products->fetch_object() ) : ?>
 			<tr>
 				<td><?php echo $product->SKU ?></td>

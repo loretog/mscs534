@@ -35,8 +35,8 @@
 				$Color = $_POST[ 'Color' ];
 				$Height = $_POST[ 'Height' ];
 				$Width = $_POST[ 'Width' ];
-
-				if( $this->query( "INSERT INTO tbl_products ( SKU, ProductName, CategoryID, Price, Cost, Color, Height, Width ) VALUES( '$SKU', '$ProductName', '$CategoryID', $Price, $Cost, '$Color', $Height, $Width )" ) ) {
+				$q = "INSERT INTO tbl_products ( SKU, ProductName, CategoryID, Price, Cost, Color, Height, Width ) VALUES( '$SKU', '$ProductName', '$CategoryID', $Price, $Cost, '$Color', $Height, $Width )";
+				if( $this->query( $q ) ) {
 					$_SESSION[ 'message' ] = array( 'success', 'Product added' );
 				} else {
 					$_SESSION[ 'message' ] = array( 'danger', 'Failed to add Product. ' . $this->error );
@@ -67,7 +67,8 @@
 			if( isset( $_POST ) && ! empty( $_POST ) ) {
 				$ProductCategory = $_POST[ 'ProductCategory' ];
 				$Description = $_POST[ 'Description' ];
-				if( $this->query( "INSERT INTO tbl_category ( ProductCategory, Description ) VALUES( '$ProductCategory', '$Description')" ) ) {
+				$q = "INSERT INTO tbl_category ( ProductCategory, Description ) VALUES( '$ProductCategory', '$Description')";				
+				if( $this->query( $q ) ) {
 					$_SESSION[ 'message' ] = array( 'success', 'Category added' );
 				} else {
 					$_SESSION[ 'message' ] = array( 'danger', 'Failed to add Category' . $this->error );
@@ -76,7 +77,8 @@
 			$this->render( 'admin' );	
 		}
 		public function edit_category() {
-			$id = $this->Router->get_params()[0];
+			$param = $this->Router->get_params();
+			$id = isset( $param[0] ) ? $param[0] : null;
 			if( isset( $_POST ) && ! empty( $_POST ) ) {
 				$ProductCategory = $_POST[ 'ProductCategory' ];
 				$Description = $_POST[ 'Description' ];
